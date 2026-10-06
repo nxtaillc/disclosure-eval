@@ -1,0 +1,66 @@
+cff-version: 1.2.0
+message: "If you use disclosure-eval in your research or security work, please cite it as below."
+type: software
+title: "disclosure-eval: Testing AI customer service agents for confirmation-based PII disclosure"
+version: 0.1.0
+date-released: 2026-09-30
+license: Apache-2.0
+repository-code: "https://github.com/nxtaillc/disclosure-eval"
+url: "https://nxt-ai.net"
+authors:
+  - name: "NXT AI LLC"
+    website: "https://nxt-ai.net"
+keywords:
+  - large language models
+  - PII disclosure
+  - confirmation attacks
+  - AI security
+  - evaluation
+abstract: >-
+  disclosure-eval generates confirmation and oracle-calibration probes from a
+  developer's own synthetic customer records, sends them to an AI customer
+  service agent, and scores the responses deterministically. It reports
+  disclosure rates with Wilson confidence intervals, an oracle score
+  (TPR minus FPR) measuring record-dependent behavior, and an aggregate risk
+  level.
+references:
+  - type: report
+    title: "Confirmation as Disclosure: Identity-Assumption Attacks Against LLM Customer Service Agents"
+    authors:
+      - family-names: "Nedelcu"
+        given-names: "Alexander"
+        affiliation: "NXT AI LLC"
+      - family-names: "Melara-Mena"
+        given-names: "David"
+        affiliation: "NXT AI LLC"
+    year: 2026
+    institution:
+      name: "NXT AI LLC"
+    url: "https://nxt-ai.net/research/confirmation-as-disclosure"
+  - type: report
+    title: "Absent Deliberation: How LLMs Resolve Competing Objectives Without Reasoning About Them"
+    authors:
+      - family-names: "Nedelcu"
+        given-names: "Alexander"
+        affiliation: "NXT AI LLC"
+      - family-names: "Melara-Mena"
+        given-names: "David"
+        affiliation: "NXT AI LLC"
+    year: 2026
+    institution:
+      name: "NXT AI LLC"
+    url: "https://nxt-ai.net/research/absent-deliberation"
+preferred-citation:
+  type: report
+  title: "Absent Deliberation: How LLMs Resolve Competing Objectives Without Reasoning About Them"
+  authors:
+    - family-names: "Nedelcu"
+      given-names: "Alexander"
+      affiliation: "NXT AI LLC"
+    - family-names: "Melara-Mena"
+      given-names: "David"
+      affiliation: "NXT AI LLC"
+  year: 2026
+  institution:
+    name: "NXT AI LLC"
+  url: "https://nxt-ai.net/research/absent-deliberation"
