@@ -210,7 +210,7 @@ real API.
 See [`CITATION.cff`](CITATION.cff). Based on two papers by Nedelcu and Melara-Mena (NXT AI LLC, 2026):
 
 - [*Confirmation as Disclosure: Identity-Assumption Attacks Against LLM Customer Service Agents*](https://nxt-ai.net/research/confirmation-as-disclosure) (Paper 1: the vulnerability)
-- *Absent Deliberation: How LLMs Resolve Competing Objectives Without Reasoning About Them* (Paper 2: the mechanism; forthcoming October 2026)
+- [*Absent Deliberation: How LLMs Resolve Competing Objectives Without Reasoning About Them*](https://nxt-ai.net/research/absent-deliberation) (Paper 2: the mechanism)
 
 ### Label mapping to the papers
 
@@ -223,7 +223,7 @@ See [`CITATION.cff`](CITATION.cff). Based on two papers by Nedelcu and Melara-Me
 
 ## What this tool does not cover
 
-disclosure-eval tests one attack class: single-turn confirmation-based disclosure against prompt-embedded records. It does not test multi-turn social engineering, tool-use or RAG architectures, correction-as-extraction, document-generation attacks, cross-customer boundary violations, or defense utility costs. For a full assessment of your LLM deployment, contact us at contact@nxt-ai.net.
+disclosure-eval tests one attack class: single-turn confirmation-based disclosure against prompt-embedded records. It does not test multi-turn social engineering, tool-use or RAG architectures, correction-as-extraction, document-generation attacks, cross-customer boundary violations, or defense utility costs. For an independent assessment of your deployment, see [nxt-ai.net/security-testing](https://nxt-ai.net/security-testing) or [book a call](https://calendly.com/nxt-ai/30min).
 
 ## License
 
